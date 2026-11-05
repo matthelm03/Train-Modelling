@@ -1,0 +1,23 @@
+{
+  "source": "https://zenodo.org/records/23283780",
+  "version": "v2",
+  "author": "Marek Kostrz",
+  "license": "CC BY 4.0",
+  "files": {
+    "train_delays_tabular.parquet": "18a38860552b8ccc82bd77ffbbaae400c47e4af0c06a6b54b8d699fe744863e4",
+    "train_runs.csv": "e49ba7167b67c8cf717f71d33f7e53ae3807554aaac4bd1931dfe5f6412e3951",
+    "SOURCE_README.md": "60c313bc76364de1098e7d927fe63c2862c39cc9173cf9f22b11d1e8dbf9caa1"
+  },
+  "archive": {
+    "key": "pkp_intercity_delays_dataset.zip",
+    "size": 64672736,
+    "checksum": "md5:050b850c40c6198e95eb009847da414f",
+    "url": "https://zenodo.org/api/records/23283780/files/pkp_intercity_delays_dataset.zip/content"
+  },
+  "doi": "10.5281/zenodo.23283780",
+  "members": {
+    "train_delays_tabular.parquet": "pkp_intercity_delays_dataset/processed_tabular/train_delays_tabular.parquet",
+    "train_runs.csv": "pkp_intercity_delays_dataset/raw/train_runs.csv",
+    "SOURCE_README.md": "pkp_intercity_delays_dataset/README.md"
+  }
+}

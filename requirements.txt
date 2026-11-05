@@ -1,0 +1,10 @@
+numpy==2.4.0
+pandas==3.0.3
+torch==2.10.0
+torch-geometric==2.8.1
+scikit-learn==1.8.0
+matplotlib==3.10.8
+pyarrow==26.0.1
+ipykernel==7.1.0
+nbformat==5.10.4
+jupyterlab==4.5.1

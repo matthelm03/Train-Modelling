@@ -1,0 +1,11 @@
+{
+  "raw_scheduled_times_missing": 0,
+  "maximum_midnight_rollovers": 2,
+  "training_latest_observed_upper_bound": "2026-04-27 12:16:00",
+  "validation_start": "2026-04-28 00:00:00",
+  "training_runs_overlapping_validation": 0,
+  "validation_latest_observed_upper_bound": "2026-05-08 12:16:00",
+  "test_start": "2026-05-09 00:00:00",
+  "validation_runs_overlapping_test": 0,
+  "method": "Unwrap scheduled departure (or arrival when departure is absent) in stop order and add the non-negative maximum recorded arrival/departure delay."
+}

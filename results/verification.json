@@ -1,0 +1,25 @@
+{
+  "verified": true,
+  "cleaned_rows": 554078,
+  "batch_targets_checked": 538605,
+  "preprocessing": "exact match to source notebook",
+  "models": [
+    {
+      "model": "LSTM",
+      "test_predictions": 85097,
+      "exact_match": true
+    },
+    {
+      "model": "Transformer",
+      "test_predictions": 85097,
+      "exact_match": true
+    },
+    {
+      "model": "GNN",
+      "test_predictions": 85097,
+      "exact_match": true
+    }
+  ],
+  "training": "one small epoch per model matches source notebook exactly",
+  "full_training_rerun": false
+}

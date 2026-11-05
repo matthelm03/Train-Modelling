@@ -1,0 +1,59 @@
+{
+  "seed": 42,
+  "history": 24,
+  "batch_size": 512,
+  "epochs": 20,
+  "patience": 4,
+  "gap_days": 1,
+  "configs": {
+    "LSTM": {
+      "lr": 0.003,
+      "hidden": 32,
+      "layers": 2,
+      "dropout": 0.1
+    },
+    "Transformer": {
+      "lr": 0.003,
+      "hidden": 32,
+      "layers": 2,
+      "dropout": 0.1
+    },
+    "GNN": {
+      "lr": 0.001,
+      "hidden": 16,
+      "layers": 1,
+      "dropout": 0.0
+    }
+  },
+  "features": [
+    "prev_delay_departure_min",
+    "stop_order",
+    "distance_from_start_km",
+    "is_international",
+    "arrival_hour_sin",
+    "arrival_hour_cos",
+    "departure_hour_sin",
+    "departure_hour_cos",
+    "day_of_week",
+    "month_sin",
+    "month_cos",
+    "is_track_closure",
+    "track_closure_length",
+    "is_speed_warning",
+    "speed_warning_length",
+    "passenger_volume_rank",
+    "num_platforms",
+    "num_platform_tracks",
+    "intersecting_lines_count",
+    "is_node",
+    "is_passing_loop",
+    "previous_stop_temperature_2m",
+    "previous_stop_snowfall",
+    "previous_stop_snow_depth",
+    "station_id",
+    "segment_id",
+    "category_code",
+    "day_category"
+  ],
+  "source": "https://zenodo.org/records/23283780"
+}
